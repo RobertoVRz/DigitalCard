@@ -1,0 +1,23 @@
+{
+  "name": "DigitalCard",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.2.4",
+    "gridsome": "^0.7.0",
+    "gridsome-plugin-sass-resources-loader": "^0.0.3",
+    "postcss": "^8.2.6"
+  },
+  "devDependencies": {
+    "gridsome-plugin-tailwindcss": "^4.1.1",
+    "node-sass": "^5.0.0",
+    "pug": "^3.0.0",
+    "pug-plain-loader": "^1.1.0",
+    "sass-loader": "^10.1.1",
+    "tailwindcss": "^2.0.3"
+  }
+}
