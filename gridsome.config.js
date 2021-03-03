@@ -40,32 +40,16 @@ module.exports = {
                 statusBarStyle: "default",
                 themeColor: "#666600",
                 backgroundColor: "#ffffff",
-                icon: "~/favicon.png",
-                shortName: "Gridsome", // Optional
-                description: "Gridsome is awesome!", // Optional
-                categories: ["education"], // Optional
-                lang: "en-GB", // Optional
-                dir: "auto", // Optional
-                maskableIcon: true, // Optional
-                screenshots: [
-                    // Optional
+                icons: [
                     {
-                        src: "src/screenshot1.png",
-                        sizes: "1280x720",
-                        type: "image/png"
+                        src: "favicon.png",
+                        sizes: "192x192"
+                    },
+                    {
+                        src: "favicon.png",
+                        sizes: "512x512"
                     }
-                ],
-                gcmSenderId: undefined, // Optional
-
-                // Standard Meta Tags
-                svgFavicon: "favicon.svg", // Optional. Requires favicon.ico fallback
-
-                // Microsoft Windows Meta Tags
-                msTileColor: "#666600", // Optional
-
-                // Apple MacOS Meta Tags
-                appleMaskIcon: "favicon.svg", // Optional
-                appleMaskIconColor: "#666600" // Optional
+                ]
             }
         }
     ]
