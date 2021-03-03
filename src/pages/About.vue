@@ -1,14 +1,16 @@
 <template>
-  <Layout>
-    <h1>About us</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur rerum illum odit fugit assumenda rem dolores inventore iste reprehenderit maxime! Iusto.</p>
-  </Layout>
+    <Layout>
+        <div class="flex flex-col justify-center items-center">
+            <g-image class="mt-40" alt="Example image" src="~/favicon.png" width="135" />
+            <h1 class="mt-5">Nombre de Empresa</h1>
+        </div>
+    </Layout>
 </template>
 
 <script>
 export default {
-  metaInfo: {
-    title: 'About us'
-  }
-}
+    metaInfo: {
+        title: "About us"
+    }
+};
 </script>

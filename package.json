@@ -9,6 +9,7 @@
   "dependencies": {
     "autoprefixer": "^10.2.4",
     "gridsome": "^0.7.0",
+    "gridsome-plugin-pwa": "^0.0.18",
     "gridsome-plugin-sass-resources-loader": "^0.0.3",
     "postcss": "^8.2.6"
   },
