@@ -40,16 +40,7 @@ module.exports = {
                 statusBarStyle: "default",
                 themeColor: "#666600",
                 backgroundColor: "#ffffff",
-                icons: [
-                    {
-                        src: "favicon.png",
-                        sizes: "192x192"
-                    },
-                    {
-                        src: "favicon.png",
-                        sizes: "512x512"
-                    }
-                ]
+                icon: "favicon.png",
             }
         }
     ]
