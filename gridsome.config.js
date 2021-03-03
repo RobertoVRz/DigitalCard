@@ -40,7 +40,7 @@ module.exports = {
                 statusBarStyle: "default",
                 themeColor: "#666600",
                 backgroundColor: "#ffffff",
-                icon: "",
+                icon: "~/favicon.png",
                 shortName: "Gridsome", // Optional
                 description: "Gridsome is awesome!", // Optional
                 categories: ["education"], // Optional
