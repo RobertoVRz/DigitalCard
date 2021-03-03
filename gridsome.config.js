@@ -33,6 +33,26 @@ module.exports = {
                 theme_color: "#34D399",
                 lang: "en"
             }
+        },
+        {
+            use: "gridsome-plugin-pwa",
+            options: {
+                title: "Digital Card",
+                startUrl: "/",
+                display: "standalone",
+                statusBarStyle: "default",
+                manifestPath: "manifest.json",
+                disableServiceWorker: false,
+                serviceWorkerPath: "service-worker.js",
+                cachedFileTypes: "js,json,css,html,png,jpg,jpeg,svg",
+                shortName: "DigitalCard",
+                themeColor: "#34D399",
+                backgroundColor: "#34D399",
+                icon: "src/favicon.png",
+                msTileImage: "",
+                msTileColor: "#34D399",
+                gcmSenderId: undefined
+            }
         }
     ]
 };
