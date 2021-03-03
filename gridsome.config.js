@@ -24,23 +24,14 @@ module.exports = {
             }
         },
         {
-            use: "gridsome-plugin-pwa",
+            use: "gridsome-plugin-manifest",
             options: {
-                // Service Worker Options
-                disableServiceWorker: false,
-                serviceWorkerPath: "service-worker.js",
-                cachedFileTypes: "js,json,css,html,png,jpg,jpeg,svg,gif",
-                disableTemplatedUrls: false, // Optional
-
-                // Manifest Options (https://developer.mozilla.org/en-US/docs/Web/Manifest)
-                manifestPath: "manifest.json",
-                title: "Gridsome",
-                startUrl: "/",
-                display: "standalone",
-                statusBarStyle: "default",
-                themeColor: "#666600",
-                backgroundColor: "#ffffff",
-                icon: "favicon.png",
+                background_color: "#34D399",
+                icon_path: "./src/assets/img/favicon.png",
+                name: "Digital Card",
+                short_name: "Digital Card",
+                theme_color: "#34D399",
+                lang: "en"
             }
         }
     ]
